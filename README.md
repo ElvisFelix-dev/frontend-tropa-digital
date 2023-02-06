@@ -18,11 +18,12 @@
 <div align="center">
   <img src="print.png" alt="printscreen" width="873" height="501"><br />
   <br />
-  <img src="print1.png" alt="printscreen" width="280" height="567">
+  <img src="print1.png" alt="printscreen" width="873" height="501">
 </div>
 <br />
 
 <p>Clonar layout do figma, as 2 pages </p>
+<p>Projeto deselvolvido para vaga frontend </p>
 
  <p align="center">
     <br />
