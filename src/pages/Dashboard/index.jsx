@@ -1,4 +1,5 @@
 import { NavLink } from 'react-router-dom'
+import { Helmet } from 'react-helmet-async'
 import SignalCellularAltIcon from '@mui/icons-material/SignalCellularAlt'
 import DataThresholdingOutlinedIcon from '@mui/icons-material/DataThresholdingOutlined'
 import TrendingUpOutlinedIcon from '@mui/icons-material/TrendingUpOutlined'
@@ -11,6 +12,9 @@ import imgLogo from '../../assets/imgLogo.png'
 export function Dashboard() {
   return (
     <Container>
+      <Helmet>
+        <title>Tropa Digital | Dashboard</title>
+      </Helmet>
       <Content>
         <div className="welcome">
           <h2>
