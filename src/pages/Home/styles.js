@@ -12,9 +12,8 @@ export const Container = styled.div`
 
   background-color: ${(props) => props.theme['orange-100']};
 
-  @media (max-width: 768px) {
-    margin: 15px;
-    align-items: center;
+  @media (min-width: 1400px) {
+    height: 100vh;
   }
 `
 
@@ -30,13 +29,6 @@ export const Content = styled.div`
 
   background-color: ${(props) => props.theme['white-100']};
 
-  @media (max-width: 900px) {
-    display: flex;
-    flex-direction: column;
-    width: 100%;
-    max-width: 500px;
-  }
-
   img {
     width: 259px;
     height: 90px;
@@ -49,6 +41,9 @@ export const Content = styled.div`
     margin: 80px 0;
     width: 340px;
     padding: 20px;
+
+    @media (min-width: 1400px) {
+    }
 
     h1 {
       margin-bottom: 24px;
@@ -140,6 +135,10 @@ export const Background = styled.div`
   background-size: cover;
   display: block;
 
+  @media (max-width: 1200px) {
+    width: 100%;
+  }
+
   img {
     position: absolute;
     width: 30rem;
@@ -150,6 +149,24 @@ export const Background = styled.div`
 
     @media (max-width: 768px) {
       display: none;
+    }
+
+    @media (min-width: 1200px) and (max-width: 1400px) {
+      position: absolute;
+      width: 35rem;
+      height: 36rem;
+      left: 528px;
+      display: block;
+      margin-top: -0.1rem;
+    }
+
+    @media (min-width: 1400px) {
+      position: absolute;
+      width: 45rem;
+      height: 46rem;
+      left: 510px;
+      display: block;
+      margin-top: 4rem;
     }
   }
 `
