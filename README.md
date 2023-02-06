@@ -23,7 +23,7 @@
 <br />
 
 <p>Clonar layout do figma, as 2 pages </p>
-<p>Projeto deselvolvido para vaga frontend </p>
+<p>Projeto desenvolvido para vaga frontend </p>
 
  <p align="center">
     <br />
@@ -37,7 +37,7 @@
 
 
 
-### Desenvolvido por :
+### Desenvolvido com :
 
 
 <a href="https://reactjs.org/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original-wordmark.svg" alt="react" width="40" height="40"/> 
